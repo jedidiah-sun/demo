@@ -1,0 +1,13 @@
+
+    NAT模式：    网段   ： 192.168.72.0
+
+    主机名                  ip地址               
+    node01                192.168.72.141
+    node02                192.168.72.142
+    node03                192.168.72.143
+	
+	
+mkdir -p /export/servers     #存放我们所有安装的软件地址
+mkdir -p /export/softwares    #存放我们所有的安装包
+
+mvn clean package -Dmaven.test.skip=true
