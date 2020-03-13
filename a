@@ -6,4 +6,7 @@ function b(x){
 	console.log(x);
 	}
 22222
+function c(x){
+	console.log(x);
+	}
 33333
